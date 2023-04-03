@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.title {
+  width: 80%;
+  display: block;
+  padding-left: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+ text-align: center;
+ background-color:#000000;
+ padding: 5px;
+}
+
+nav a {
+  color: #ff1515;
+  font-size: 25px;
+  font-family: 'Prosto One', cursive;
+  text-decoration: none;
+  padding: 2.5px 5px;
+  margin: 0% 2%;
+}
+
+nav a:hover{
+  background-color: #e32400;
+  color:#ebebeb
+}
+
+h2 {
+  color: #ff1515;
+  font-size: 35px;
+  font-family: 'Prosto One', cursive;
+  text-decoration: none;
+  text-align: center;
+}
+
+.line {
+  border: 1px solid #e32400;
+  width: 80%;
+}
+
+.hook {
+  color: white;
+  font-family: 'Prosto One', cursive;
+  text-align: center;
+  padding: 0% 10%;
+  font-size: 15px;
+}
+
+p {
+  color: white;
+  font-family: 'Prosto One', cursive;
+  text-align: left;
+  padding: 0% 10%;
+  font-size: 15px;
+}
+
+.link {
+  font-family: 'Prosto One', cursive;
+  color: #ff1515;
+  text-decoration: under-line;
+}
+
+.link:hover{ 
+  color: #ff1515;
+  text-decoration: none;
+}
+
+.anchorLink {
+  font-family: 'Prosto One', cursive;
+  color: #ffffff;
+  text-decoration: under-line;
+}
+
+.anchorLink:hover{ 
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	background-color: #000000;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+}
+
+.box {
+	width: 205px;
+	background-color: #e32400;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box img {
+	width: 100%;
+  border-radius: 5px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Prosto One', cursive;
+  text-decoration: none;
+  text-align: center;
+}
+
+.season5 {
+  color: #000000;
+  font-family: 'Prosto One', cursive;
+  text-align: left;
+  padding: 0% 10%;
+  font-size: 15px;
+}
+
+.container1 {
+	width: 80%;
+	background-color: #000000;
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+}
+
+.box1 {
+	width: 225px;
+	background-color: #e32400;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box1 img {
+	width: 100%;
+  border-radius: 5px;
+}
+
+.container2 {
+	width: 80%;
+	background-color: #000000;
+	padding: 20px;
+	display: flex;
+	gap: 25px;
+	flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+}
+
+.box2 {
+	background-color: #e32400;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.seaHead {
+  color: black;
+  font-size: 35px;
+  font-family: 'Prosto One', cursive;
+  text-decoration: none;
+  text-align: center;
+}
+
+.box2Img1 {
+  width: 300px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+.box2Img2 {
+  height: 295px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+.box2Img3 {
+  height: 345px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+.box2Img4 {
+  height: 315px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+.box2Img5 {
+  height: 287px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+.facts {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  align-content: center;
+  margin: auto;
+}
+.facts td, #facts th {
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+.facts tr:nth-child(even)  {
+background-color: #ffffff;
+}
+
+.facts tr:nth-child(odd)  {
+background-color: #ebebeb;
+}
+.facts tr:hover {
+background-color: #ffcccb;
+}
+
+.facts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  text-align: left;
+  background-color: #e32400;
+  color: white;
+}
+
+table {
+  border: 2px solid #000000;
+}
+
+footer {
+  padding: 15px;
+}
+
+.footerText {
+  color:  #e32400;
+  text-align: center;
+}
